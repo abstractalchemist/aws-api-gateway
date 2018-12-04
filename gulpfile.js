@@ -6,7 +6,7 @@ const fs = require('fs')
 
 
 gulp.task('test', function() {
-   return gulp.src('test/**/*js').pipe(mocha({compilers:'js:@babel/register'}))
+   return gulp.src('test/**/*js').pipe(mocha({compilers:'js:@babel/register', exit:true, require:"test/init.js"}))
 })
 
 gulp.task('js', ['test'], function() {
