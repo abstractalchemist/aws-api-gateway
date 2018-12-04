@@ -1,0 +1,24 @@
+{
+  "name": "aws-testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-amplify": "^1.1.11",
+    "aws-amplify-react": "^2.1.5",
+    "react": "^16.6.3",
+    "rxjs": "^6.3.3"
+  },
+  "devDependencies": {
+    "browserify": "^16.2.3",
+    "chai": "^4.2.0",
+    "chai-http": "^4.2.0",
+    "gulp": "^3.9.1",
+    "mocha": "^5.2.0"
+  }
+}
